@@ -40,9 +40,11 @@ rollBtn.addEventListener("click", function () {
 
     if (player1Score >= 20) {
         message.textContent = "Player 1 has won! 🥳"
+        message.classList.toggle('activate')
         showDisplayButton()
     } else if (player2Score >= 20) {
         message.textContent = "Player 2 has won! 🎉"
+        message.classList.toggle('activate')
         showDisplayButton()
     }
 
@@ -65,5 +67,6 @@ function reset() {
     rollBtn.style.display = "block"
     player2Dice.classList.remove("active")
     player1Dice.classList.add("active")
+    message.classList.toggle('activate')
 }
 

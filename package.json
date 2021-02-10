@@ -1,7 +1,7 @@
 {
   "name": "dicegame",
   "version": "1.0.0",
-  "description": "",
+  "description": "A 2v2 Dice game created as part of the FrontEnd Development Program on Scrimba.com\r <br>\r FrontEnd Development Career Path link - https://scrimba.com/learn/frontend<br>\r <br>\r Used HTML,JavaScript and CSS to create a dice game which declares one of the two players Winner,who reaches 20 points before the other.",
   "main": "index.js",
   "scripts": {
     "start": "npm run lite",
@@ -15,5 +15,13 @@
   },
   "devDependencies": {
     "lite-server": "^2.6.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinayak-singh5302/Dice-Game.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vinayak-singh5302/Dice-Game/issues"
+  },
+  "homepage": "https://github.com/vinayak-singh5302/Dice-Game#readme"
 }
